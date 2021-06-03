@@ -7,7 +7,6 @@ import useUnprotectedPage from '../../hooks/useUnprotectedPage'
 
 const SignUpPage = ({setRightButtonText}) => {
   useUnprotectedPage()
-  
   return (
     <ScreenContainer>
       <LogoImage src={logo}/>

@@ -1,13 +1,13 @@
 export const goToLogin = (history) => {
-    history.push('/login')
+    history.push("/login")
 }
 
 export const goToSignUp = (history) => {
-    history.push('/cadastro')
+    history.push("/cadastro")
 }
 
 export const goToAddRecipes = (history) => {
-    history.push('/adicionar-receita')
+    history.push("/adicionar-receita")
 }
 
 export const goToRecipeDetail = (history, id) => {
@@ -15,5 +15,5 @@ export const goToRecipeDetail = (history, id) => {
 }
 
 export const goToRecipesList = (history) => {
-    history.push('/')
+    history.push("/")
 }
